@@ -4,5 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id = "Sim"  class="SpringBasicDemo.jio"></bean>
+    <bean id = "student"  class="DependencyInjectionDemo.studentdetails">
+        <property name="stuName" value="Mugilan Prabakaran" />
+    </bean>
 </beans>

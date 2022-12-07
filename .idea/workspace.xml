@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring Practice/SpringBasicDemo/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring Practice/SpringBasicDemo/Sim.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring Practice/SpringBasicDemo/airtel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring Practice/SpringBasicDemo/jio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Spring Practice/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringBasicDemo/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringBasicDemo/Sim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringBasicDemo/airtel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpringBasicDemo/jio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beans.xml" afterDir="false" />
+    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Changing beans path location according to the package">
+      <change afterPath="$PROJECT_DIR$/out/production/Spring Practice/DependencyInjectionDemo/StudentInj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Spring Practice/DependencyInjectionDemo/studentdetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/SetterInjectionbean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/StudentInj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjectionDemo/studentdetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring Practice/SpringBasicDemo/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring Practice/SpringBasicDemo/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring Practice/beans.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +50,21 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\DependencyInjectionDemo" />
+      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src" />
+      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\SpringBasicDemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StudentInj">
     <configuration name="Phone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SpringBasicDemo.Phone" />
       <module name="Spring Practice" />
@@ -74,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentInj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DependencyInjectionDemo.StudentInj" />
+      <module name="Spring Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DependencyInjectionDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentInj" />
         <item itemvalue="Application.Phone" />
       </list>
     </recent_temporary>
@@ -89,6 +107,21 @@
       <option name="presentableId" value="Default" />
       <updated>1670328865446</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic Spring code">
+      <created>1670337751105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670337751105</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changing beans path location according to the package">
+      <created>1670420789648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670420789648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,5 +164,10 @@
         <entry key="7af38b2c-f47c-4595-9331-ddee37f933af" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic Spring code" />
+    <MESSAGE value="Changing beans path location according to the package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing beans path location according to the package" />
   </component>
 </project>
