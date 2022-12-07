@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Phone {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("SpringBasicDemo/beans.xml");
         System.out.println("Config loaded");
         //Typecasting
         airtel Airtel = (airtel) context.getBean("Airtel");
