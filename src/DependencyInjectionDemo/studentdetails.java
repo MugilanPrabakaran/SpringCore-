@@ -2,9 +2,15 @@ package DependencyInjectionDemo;
 
 public class studentdetails {
     private String  stuName;
+    private int id;
 
-    public String getStuName() {
-        return stuName;
+    public studentdetails(String stuName, int id) {
+        this.stuName = stuName;
+        this.id = id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setStuName(String stuName) {
@@ -12,7 +18,7 @@ public class studentdetails {
     }
 
     public void studentDetails(){
-        System.out.println("Student name is : " + stuName);
+        System.out.println("Student name is : " + stuName+ " and the student ID is "+id);
     }
 
 }
