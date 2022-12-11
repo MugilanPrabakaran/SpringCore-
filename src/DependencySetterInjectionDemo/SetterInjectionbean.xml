@@ -4,18 +4,18 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--below line used to create student object and injecting name in that object -->
-    <bean id = "student"  class="DependencyInjectionDemo.studentdetails">
+    <bean id = "student"  class="DependencySetterInjectionDemo.studentdetails">
         <!-- property is for setter injection -->
         <property name="stuName" value="Mugilan Prabakaran" />
         <property name="id" value="101"/>
     </bean>
     <!-- creating another Object and injecting other values in it -->
-    <bean id = "student2"  class="DependencyInjectionDemo.studentdetails">
-        <property name="stuName" value="Shrinithi Kulothungan" />
-        <property name="id" value="102"/>
+    <bean id = "student2"  class="DependencySetterInjectionDemo.studentdetails">
+        <property name="stuNameue" value="Shrinithi Kulothungan" />
+        <property name="id" val="102"/>
     </bean>
     <!-- creating constructor injection  -->
-    <bean id = "student2"  class="DependencyInjectionDemo.studentdetails">
+    <bean id = "student2"  class="DependencySetterInjectionDemo.studentdetails">
         <!--constructor-arg  is for constructor injection -->
         <constructor-arg name="stuName" value="Shrinithi Kulothungan" />
         <constructor-arg name="id" value="102"/>

@@ -1,4 +1,4 @@
-package DependencyInjectionDemo;
+package DependencySetterInjectionDemo;
 
 public class studentdetails {
     private String  stuName;
