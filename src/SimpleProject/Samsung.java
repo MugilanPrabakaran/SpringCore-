@@ -9,5 +9,7 @@ public class Samsung {
     System.out.println("File is loaded");
     Airtel airtel  = context.getBean("ser", Airtel.class);
     airtel.activate();
+    Vodafone vodafone = context.getBean("vod", Vodafone.class);
+    vodafone.vodafActivating();
     }
 }

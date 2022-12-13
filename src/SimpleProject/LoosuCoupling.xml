@@ -10,4 +10,7 @@
     <bean id = "ser" class ="SimpleProject.Airtel" >
         <property name="services" ref="Dataserviceobject"></property>
     </bean>
+    <bean id = "vod" class ="SimpleProject.Vodafone" >
+        <property name="services" ref="HellotunesObject"></property>
+    </bean>
 </beans>
