@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Updating simple project with another class implementation">
-      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/AutowiredSpring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/Heart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/Human.java" afterDir="false" />
+    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Updating XML comments and adding autowire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleProject/LoosuCoupling.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleProject/LoosuCoupling.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutowiredinSpring/AutowiredSpring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutowiredinSpring/AutowiredSpring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670932541759</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updating XML comments and adding autowire">
+      <created>1670983732171</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670983732171</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +284,8 @@
     <MESSAGE value="updating older setting injection" />
     <MESSAGE value="Learned today Loose coupling and done a sample project" />
     <MESSAGE value="Updating simple project with another class implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating simple project with another class implementation" />
+    <MESSAGE value="Updating XML comments and adding autowire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating XML comments and adding autowire" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

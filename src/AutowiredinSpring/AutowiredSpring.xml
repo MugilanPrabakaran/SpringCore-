@@ -3,11 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="heartObject" class="AutowiredinSpring.Heart"/>
-    <!-- Heart heartObject = new Heart();-->
+    <!--<bean id="heartObject" class="AutowiredinSpring.Heart"/>
+    &lt;!&ndash; Heart heartObject = new Heart();&ndash;&gt;
     <bean id = "human" class = "AutowiredinSpring.Human">
-        <!-- Human human = new Human();-->
+        &lt;!&ndash; Human human = new Human();&ndash;&gt;
         <property name="heart" ref ="heartObject"/>
-        <!-- human.setHeart(heartObject);-->
-    </bean>
+        &lt;!&ndash; human.setHeart(heartObject);&ndash;&gt;
+    </bean>-->
+    <bean id = "heart" class="AutowiredinSpring.Heart"/>
+    <!-- Heart heart = new Heart();-->
+    <bean id = "human" class = "AutowiredinSpring.Human" autowire="byName"/>
+    <!--Human human = new Human();
+        human.setHeart(new Heart()):-->
 </beans>
