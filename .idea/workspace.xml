@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Learned today Loose coupling and done a sample project">
-      <change afterPath="$PROJECT_DIR$/src/SimpleProject/Vodafone.java" afterDir="false" />
+    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Updating simple project with another class implementation">
+      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/AutowiredSpring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/Heart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutowiredinSpring/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleProject/LoosuCoupling.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleProject/LoosuCoupling.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleProject/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleProject/Samsung.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +80,13 @@
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\SpringBasicDemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Samsung">
-    <configuration name="Phone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpringBasicDemo.Phone" />
+  <component name="RunManager" selected="Application.Body">
+    <configuration name="Body" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutowiredinSpring.Body" />
       <module name="Spring Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SpringBasicDemo.*" />
+          <option name="PATTERN" value="AutowiredinSpring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Body" />
         <item itemvalue="Application.Samsung" />
         <item itemvalue="Application.SpringlooseCoupling.client" />
         <item itemvalue="Application.client" />
         <item itemvalue="Application.StudentInj" />
-        <item itemvalue="Application.Phone" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670930971825</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updating simple project with another class implementation">
+      <created>1670932541759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932541759</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +280,8 @@
     <MESSAGE value="Adding new Spring Object injection" />
     <MESSAGE value="updating older setting injection" />
     <MESSAGE value="Learned today Loose coupling and done a sample project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned today Loose coupling and done a sample project" />
+    <MESSAGE value="Updating simple project with another class implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating simple project with another class implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -8,7 +8,9 @@
     <bean id = "HellotunesObject" class="SimpleProject.HelloTunes"></bean>
     <bean id = "SMSserviceObject" class="SimpleProject.SMSservice"></bean>
     <bean id = "ser" class ="SimpleProject.Airtel" >
+        <!-- Airtel ser = new Airtel();-->
         <property name="services" ref="Dataserviceobject"></property>
+        <!-- ser.setServices(Dataserviceobject);-->
     </bean>
     <bean id = "vod" class ="SimpleProject.Vodafone" >
         <property name="services" ref="HellotunesObject"></property>
