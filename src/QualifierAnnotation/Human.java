@@ -6,7 +6,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 public class Human {
     private Heart heart;
     @Autowired
-    @Qualifier("OctopusHeart") //if you are using annotation before  class name setter and getter are no need if any doubt refer Notion
+    @Qualifier("OctopusHeart") //if you are using annotation before class name 
+                                //setter and getter are no need if any doubt refer Notion
     public void setHeart(Heart heart) {
         this.heart = heart;
     }
