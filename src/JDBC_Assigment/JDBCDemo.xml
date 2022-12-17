@@ -9,14 +9,6 @@
     <!-- below line is used to activate @Value annotation in Java-->
     <context:annotation-config/>
     <!-- it is used to connecting the property files to XML-->
-    <context:property-placeholder location="classpath:PropertyfilesInjectuingDemo/injectting-files.properties"/>
-    <bean id = "student" class="PropertyfilesInjectuingDemo.Student">
-<!--        <property name="name" value="Mukilan "/>-->
-<!--        <property name="hobby" value=" cricket"/>-->
-<!--        <property name="Address" value="Salem"/>-->
-        <!-- we are loading Dynamic values by using ${}-->
-      <!--  <property name="name" value="${student.name}" />
-        <property name="hobby" value="${student.hobby}"  />
-        <property  name="Address" value="${student.Address}"/>-->
-    </bean>
+    <context:property-placeholder location="classpath:JDBC_Assigment/jdbc_connection.properties"/>
+    <bean id = "jdbc" class="JDBC_Assigment.JDBC_Demo"/>
 </beans>

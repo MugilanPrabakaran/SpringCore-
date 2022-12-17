@@ -17,7 +17,7 @@
     <!-- creating constructor injection  -->
     <bean id = "student2"  class="DependencySetterInjectionDemo.studentdetails">
         <!--constructor-arg  is for constructor injection -->
-        <constructor-arg name="stuName" value="Shrinithi Kulothungan" />
+        <constructor-arg name="stuName" value="Shrinithi Kulothungan"/>
         <constructor-arg name="id" value="102"/>
     </bean>
 </beans>
