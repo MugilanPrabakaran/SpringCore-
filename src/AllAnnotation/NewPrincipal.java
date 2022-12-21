@@ -5,3 +5,4 @@ public class NewPrincipal {
         System.out.println("Hi I am Principal");
     }
 }
+

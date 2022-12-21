@@ -10,6 +10,10 @@ import java.security.Principal;
 @ComponentScan(basePackages = "src/AllAnnotation")
 public class CollegeConfig {
     @Bean
+    public Mathteacher matchteacherBean() {
+        return new Mathteacher();
+    }
+    @Bean
     public NewPrincipal principalBean() {
         return new NewPrincipal();
     }
@@ -18,6 +22,7 @@ public class CollegeConfig {
     public College colleg(){
       College college = new College();
       college.setPrincipal(principalBean());
+      college.setTeacher(matchteacherBean());
       return college;
     }
 }

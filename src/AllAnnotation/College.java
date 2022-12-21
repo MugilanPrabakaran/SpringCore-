@@ -5,7 +5,14 @@ import java.security.Principal;
 
 public class College {
     private NewPrincipal principal;
-//Constructor Injection
+
+    private Teacher teacher;
+
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
+    }
+
+    //Constructor Injection
     /*public College(NewPrincipal principal) {
         this.principal = principal;
     }*/
@@ -16,5 +23,6 @@ public class College {
 
     public void test(){
         principal.princinfo();
+        teacher.Mathteacher();
     }
 }
