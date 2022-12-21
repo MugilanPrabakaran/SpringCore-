@@ -9,7 +9,7 @@ public class client {
         //Here we are using replece ApplicationContext to AnnotationConfigApplicationContext to close the context
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(CollegeConfig.class);
         System.out.println("XML file Loaded");
-        College college = context.getBean("colleg", College.class);
+        College college = context.getBean("college", College.class);
         System.out.println("Spring created bean"+ college);
         college.test();
         context.close();

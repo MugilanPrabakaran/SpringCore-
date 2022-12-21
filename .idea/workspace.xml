@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="updating @Bean annotation with Constructor and Setter injection">
-      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/Mathteacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/Teacher.java" afterDir="false" />
+    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="updating @Bean annotation with Setter and Interface injection">
+      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/ScienceTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/collegeInfo.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AllAnnotation/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/College.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AllAnnotation/CollegeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/CollegeConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllAnnotation/Mathteacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/Mathteacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AllAnnotation/NewPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/NewPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllAnnotation/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllAnnotation/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -296,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671614334791</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="updating @Bean annotation with Setter and Interface injection">
+      <created>1671629577451</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671629577451</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,7 +368,8 @@
     <MESSAGE value="New @Component Annotation created" />
     <MESSAGE value="Adding new @Bean and @Configuration Annotation" />
     <MESSAGE value="updating @Bean annotation with Constructor and Setter injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating @Bean annotation with Constructor and Setter injection" />
+    <MESSAGE value="updating @Bean annotation with Setter and Interface injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating @Bean annotation with Setter and Interface injection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
