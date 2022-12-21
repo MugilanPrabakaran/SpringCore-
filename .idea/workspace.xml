@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="updating new @value and @required annotation and JDBC connection">
-      <change afterPath="$PROJECT_DIR$/src/Annotationall/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotationall/CollegeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotationall/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotationall/collegebean.xml" afterDir="false" />
+    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="New @Component Annotation created">
+      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/CollegeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/NewPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Annotationall/College.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Annotationall/CollegeConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Annotationall/client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Annotationall/collegebean.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +80,26 @@
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\Depinjectionobjecttype" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\DemoofAnno\College" />
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\DependencyInjectionDemo" />
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src" />
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\SpringBasicDemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Annotationall.client">
+  <component name="RunManager" selected="Application.AllAnnotation.client">
+    <configuration name="AllAnnotation.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllAnnotation.client" />
+      <module name="Spring Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AllAnnotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Annotation_All_in_1.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Annotation_All_in_1.client" />
       <module name="Spring Practice" />
@@ -108,25 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Annotationall.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Annotationall.client" />
+    <configuration name="DemoofAnno.College.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoofAnno.College.client" />
       <module name="Spring Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Annotationall.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PropertyfilesInjectuingDemo.client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PropertyfilesInjectuingDemo.client" />
-      <module name="Spring Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PropertyfilesInjectuingDemo.*" />
+          <option name="PATTERN" value="DemoofAnno.College.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Annotationall.client" />
+        <item itemvalue="Application.AllAnnotation.client" />
+        <item itemvalue="Application.DemoofAnno.College.client" />
         <item itemvalue="Application.Annotation.All.in.client" />
         <item itemvalue="Application.Annotation_All_in_1.client" />
         <item itemvalue="Application.client" />
-        <item itemvalue="Application.PropertyfilesInjectuingDemo.client" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671282731170</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New @Component Annotation created">
+      <created>1671550887783</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671550887783</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +341,8 @@
     <MESSAGE value="updating @Qualifier" />
     <MESSAGE value="Injection literal values using property files" />
     <MESSAGE value="updating new @value and @required annotation and JDBC connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating new @value and @required annotation and JDBC connection" />
+    <MESSAGE value="New @Component Annotation created" />
+    <option name="LAST_COMMIT_MESSAGE" value="New @Component Annotation created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
