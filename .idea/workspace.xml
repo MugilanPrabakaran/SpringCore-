@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="New @Component Annotation created">
-      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/CollegeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/NewPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AllAnnotation/client.java" afterDir="false" />
+    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Adding new @Bean and @Configuration Annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Annotationall/College.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Annotationall/CollegeConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Annotationall/client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Annotationall/collegebean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllAnnotation/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/College.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllAnnotation/CollegeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/CollegeConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllAnnotation/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllAnnotation/client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671550887783</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding new @Bean and @Configuration Annotation">
+      <created>1671602536696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671602536696</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +343,8 @@
     <MESSAGE value="Injection literal values using property files" />
     <MESSAGE value="updating new @value and @required annotation and JDBC connection" />
     <MESSAGE value="New @Component Annotation created" />
-    <option name="LAST_COMMIT_MESSAGE" value="New @Component Annotation created" />
+    <MESSAGE value="Adding new @Bean and @Configuration Annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new @Bean and @Configuration Annotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

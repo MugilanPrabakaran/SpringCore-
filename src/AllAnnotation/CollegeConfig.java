@@ -16,6 +16,8 @@ public class CollegeConfig {
 
     @Bean
     public College colleg(){
-        return new College(principalBean());
+      College college = new College();
+      college.setPrincipal(principalBean());
+      return college;
     }
 }
