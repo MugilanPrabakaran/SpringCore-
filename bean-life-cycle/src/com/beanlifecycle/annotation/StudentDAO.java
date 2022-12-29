@@ -1,18 +1,58 @@
 package com.beanlifecycle.annotation;
 
+import org.springframework.web.bind.annotation.PostMapping;
+
 import java.sql.*;
 
 public class StudentDAO {
-    private String driver = "com.mysql.jdbc.Driver";
-    private String url = "jdbc:mysql://localhost:3306/studentinfo";
-    private String userName = "root";
-    private String password = "Mukil@2019";
+    Connection connection;
+    private String driver ;
+    private String url ;
 
-    public void selectAllRows() throws Exception {
+    private String userName;
+    private String password;
+    public void setDriver(String driver) {
+        this.driver = driver;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    public String getDriver() {
+        return driver;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void createConnection() throws Exception{
+
+     System.out.println("Creating connection to DB");
         //load driver
         Class.forName(driver);
         //Get a connection
-        Connection connection = DriverManager.getConnection(url, userName, password);
+        connection = DriverManager.getConnection(url, userName, password);
+    }
+
+    public void selectAllRows() throws Exception {
+        createConnection();
         //execute query
         Statement state =  connection.createStatement();
         ResultSet rs = state.executeQuery("Select * from studentdetails");
@@ -22,22 +62,17 @@ public class StudentDAO {
             String studid = rs.getString(1);
             System.out.println("Student Id is : "+studid );
         }
-        //Closing the connection
-        connection.close();
-
     }
     public void deleterec(int studid) throws Exception {
-        //load driver
-        Class.forName(driver);
-        //Get a connection
-        Connection connection = DriverManager.getConnection(url, userName, password);
-        //execute query
+        createConnection();
         Statement stmt =  connection.createStatement();
         //Deleting the particular student details
         stmt.executeUpdate("Delete from studentdetails where studid ="+studid);
         System.out.println("Deleted the Student Info "+studid);
-        //closing the connection
-        connection.close();
     }
 
+    public void closConnection()throws Exception{
+        //Closing the connection
+        connection.close();
+    }
 }

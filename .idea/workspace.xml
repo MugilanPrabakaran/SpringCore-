@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Demo JDBC">
+    <list default="true" id="f572f989-7732-4ef9-8651-cd3a78bb6d61" name="Changes" comment="Updating JDBC with SQL query">
+      <change afterPath="$PROJECT_DIR$/bean-life-cycle/src/com/beanlifecycle/annotation/Spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bean-life-cycle/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/bean-life-cycle/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bean-life-cycle/src/com/beanlifecycle/annotation/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bean-life-cycle/src/com/beanlifecycle/annotation/StudentDAO.java" afterDir="false" />
@@ -77,11 +78,11 @@
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\Depinjectionobjecttype" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\bean-life-cycle\src\com\beanlifecycle\annotation" />
+      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\bean-life-cycle\src" />
+      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\bean-life-cycle" />
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\AllAnnotation" />
       <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\DemoAnnotation" />
-      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\DemoofAnno\College" />
-      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src\DependencyInjectionDemo" />
-      <recent name="C:\Users\Mugilan\IdeaProjects\Spring Practice\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671803313149</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updating JDBC with SQL query">
+      <created>1672227711209</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672227711209</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +382,8 @@
     <MESSAGE value="updating @Bean annotation with Setter and Interface injection" />
     <MESSAGE value="This Package contains all Annotation in one program" />
     <MESSAGE value="Demo JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo JDBC" />
+    <MESSAGE value="Updating JDBC with SQL query" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating JDBC with SQL query" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
